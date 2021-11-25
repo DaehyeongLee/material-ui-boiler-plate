@@ -5,8 +5,6 @@ function PublicRouteWithLayout(props) {
 
 	const { layout: Layout, component: Component } = props;
 
-	console.log(Component)
-
 	return (
 		<Route
 			render={matchProps => (

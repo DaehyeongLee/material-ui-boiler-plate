@@ -6,9 +6,6 @@ function Main(props) {
 
     return (
         <div>
-            <h1>
-                Main Layout
-            </h1>
             <main>
                 {children}
             </main>
